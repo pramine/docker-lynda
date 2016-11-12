@@ -1,20 +1,36 @@
-= Multi host cluster
+= Cluster of multiple nodes
 
 . What is Swarm Mode?
-.. Introduction
+.. What is it?
 .. Master (primary and secondary) and Worker, Raft/Gossip
 . Create Swarm Mode cluster using Docker Machine
 .. Configure CLI to talk to primary
 .. `docker ps`
 .. `docker node ls`
+.. Configure CLI to talk to secondary and show results are similar
 . Create Swarm Mode cluster using Docker for AWS
 .. Create SSH tunnel
 .. `docker ps`
 .. `docker node ls`
-
 . Replicated service
-
-.. Create a cluster using Docker Machine
-.. Create a cluster using Docker for AWS
-.. Docker Services
-... Auto-scaling
+.. `docker service --help`
+.. Create a WildFly service using `docker service create`
+.. Routing mesh, swarm-wide ingress port
+.. Scale service
+.. Kill a container and show desired/actual reconciliation
+. Rolling Update
+. Node maintenance
+.. Node failure
+... Only in Docker Machine, ASG in AWS
+... Terminate a Docker Machine, wait for the container to be rescheduled, service reconciliation
+.. Pause/Active - show that the container is not rescheduled
+.. Drain - show that the container is rescheduled
+. Global service
+. Label/constraints
+.. Attach labels to some nodes
+.. Run a service with constraint
+.. Show service scaling (only on the labeled node)
+.. Run a new service w/o constraint (show it only starts on unlabeled nodes)
+. Create a Couchbase cluster using service
+. Docker Compose `bundle` command
+.. Compare Dockerfile -> Image -> Container with Compose -> Bundle -> Stack

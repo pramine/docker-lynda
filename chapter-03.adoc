@@ -2,13 +2,13 @@
 
 . Introduction to Docker Compose
 .. What is it?
-.. `docker-compose.yml`, `docker-compose.override.yml`, `-f`
-. CLI, `--version`, `--help`, default project name, `-p`, `up`, `down`
+.. CLI, `docker-compose.yml`, `docker-compose.override.yml`, `-f`
+. `--version`, `--help`, default project name, `-p`, `up`, `down`
 . Commands: `ps`, `rm`, `logs`
 . Run a simple WildFly container, WildFly + Couchbase container
+.. How is it equivalent to `docker run` CLI
 . Dev/Prod with Compose
-.. Setup dev environment (app server, database, linking etc)
+.. Setup dev environment (app server, database, app server -> db connection pre-configured)
 .. `production.yml` to override services
-.. More command examples: `pull`, `build`, `restart`
-.. More command examples: `bundle` Compose -> Bundle -> Stack
-
+. More command examples: `pull`, `build`, `restart`
+.. Build context
