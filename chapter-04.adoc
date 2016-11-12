@@ -1,5 +1,19 @@
-Multi host cluster
-. Swarm Mode
+= Multi host cluster
+
+. What is Swarm Mode?
+.. Introduction
+.. Master (primary and secondary) and Worker, Raft/Gossip
+. Create Swarm Mode cluster using Docker Machine
+.. Configure CLI to talk to primary
+.. `docker ps`
+.. `docker node ls`
+. Create Swarm Mode cluster using Docker for AWS
+.. Create SSH tunnel
+.. `docker ps`
+.. `docker node ls`
+
+. Replicated service
+
 .. Create a cluster using Docker Machine
 .. Create a cluster using Docker for AWS
 .. Docker Services
