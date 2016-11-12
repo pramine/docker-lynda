@@ -1,6 +1,12 @@
-. Multi-container applications using Docker Compose
-.. Docker Compose
-.. Run a simple WildFly container
-.. Run a simple Couchbase container (show volume mapping)
-.. `build`
+= Multi-container applications
+
+. Introduction to Docker Compose
+.. What is it?
+.. `docker-compose.yml`, `docker-compose.override.yml`, `-f`
+.. Run a simple WildFly container, WildFly + Couchbase container
+.. CLI, `--version`, `--help`, default project name, `-p`
+.. Dev/Prod with Compose
+.. Commands: `up`, `down`, `ps`, `rm`, `logs` - Examples
+.. More commands: `pull`, `build`, `restart` - Examples
+.. More commands: `bundle` Compose -> Bundle -> Stack
 

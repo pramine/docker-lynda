@@ -1,9 +1,18 @@
+= Introduction
 
-. Docker Introduction
-.. What is Docker?
-.. Docker workflow
-.. Getting Started with Docker for Mac/Windows and Linux
-... Experimental and Stable
-... `yum install` or `apt-get install`
-.. Getting Started with Docker Toolbox
-
+. What is Docker?
+.. Application Delivery Technology
+.. Build, Ship, Run
+.. Image
+.. Container
+. Docker workflow
+.. Client, Host, Hub
+. Getting Started with Docker for Mac/Windows and Linux
+.. Experimental and Stable
+.. `yum install` or `apt-get install`
+. Getting Started with Docker Toolbox
+.. Different components
+.. Docker Machine
+.. Show how to connect with default Docker Machine
+.. Create a new Docker Machine and connect to it
+.. `-d` driver
