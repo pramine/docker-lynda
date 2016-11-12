@@ -1,0 +1,6 @@
+Multi host cluster
+. Swarm Mode
+.. Create a cluster using Docker Machine
+.. Create a cluster using Docker for AWS
+.. Docker Services
+... Auto-scaling
