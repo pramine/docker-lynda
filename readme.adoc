@@ -1,9 +1,2 @@
 = Script for Docker Course for Lynda
 
-. link:chapter-01.adoc[]
-. link:chapter-02.adoc[]
-. link:chapter-03.adoc[]
-. link:chapter-04.adoc[]
-. link:chapter-05.adoc[]
-. link:chapter-06.adoc[]
-. link:chapter-07.adoc[]
