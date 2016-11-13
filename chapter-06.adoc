@@ -1,7 +1,7 @@
 = Stateful containers
 
-. Per-container volume
-. Host mapping
+. Per-container volume: http://blog.couchbase.com/2016/october/persisting-couchbase-data-across-container-restarts
+. Host mapping: http://blog.couchbase.com/2016/october/persisting-couchbase-data-across-container-restarts
 . Docker Volume Plugin
 .. Flocker
 .. Portworx
