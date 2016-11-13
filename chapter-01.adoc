@@ -1,16 +1,16 @@
 = Introduction
 
-. What is Docker? This section will introduce what is Docker. It'll explain the three key concepts of Build, Ship and Run with Docker. The fundamentals of Image and Container will be introduced.
+. *Introduction to Docker* - This section will introduce what is Docker. It'll explain the three key concepts of Build, Ship and Run with Docker. The fundamentals of Image and Container will be introduced.
 .. Application Delivery Technology
 .. Build, Ship, Run
 .. Image
 .. Container
-. Docker workflow - This section will explain the workflow of Docker. How a client, host and hub work together for a typical lifecycle.
+. *Docker workflow* - This section will explain the workflow of Docker. How a client, host and hub work together for a typical lifecycle.
 .. Client, Host, Hub
-. Getting Started with Docker for Mac/Windows and Linux - This section will explain how to get started with Docker on Mac, Windows and Linux. Difference between Experimental and Stable will be explained.
+. *Getting Started with Docker for Mac/Windows and Linux* - This section will explain how to get started with Docker on Mac, Windows and Linux. Difference between Experimental and Stable will be explained.
 .. Experimental and Stable
 .. `yum install` or `apt-get install`
-. Getting Started with Docker Toolbox - This section will explain how to use Docker Toolbox to get started. Connecting to the default Docker Machine will be explained. A new Docker Machine will be created and how to connect to it will be explained.
+. *Getting Started with Docker Toolbox* - This section will explain how to use Docker Toolbox to get started. Connecting to the default Docker Machine will be explained. A new Docker Machine will be created and how to connect to it will be explained.
 .. Different components
 .. Docker Machine
 .. Show how to connect with default Docker Machine
