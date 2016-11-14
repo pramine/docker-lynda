@@ -1,25 +1,25 @@
 = Cluster of multiple nodes
 
-. What is Swarm Mode?
+. *Introduction to Swarm Mode* - This section introduces Swarm Mode. It talks about 
 .. What is it?
 .. Master (primary and secondary) and Worker, Raft/Gossip
-. Create Swarm Mode cluster using Docker Machine
+. *Create Swarm Mode cluster using Docker Machine* - This section will explain how to create a cluster of Docker Engine in swarm mode. It will use Docker Machine to create the cluster. This allows the multi-host cluster to be easily created on a single machine.
 .. Configure CLI to talk to primary
 .. `docker ps`
 .. `docker node ls`
 .. Configure CLI to talk to secondary and show results are similar
-. Create Swarm Mode cluster using Docker for AWS
+. *Create Swarm Mode cluster using Docker for AWS* - This section will explain how to create a cluster of Docker Engine in swarm mode. It will use Docker for AWS to create the cluster. This allows the multi-host cluster to be easily created on Amazon Web Services.
 .. Create SSH tunnel
 .. `docker ps`
 .. `docker node ls`
-. Replicated service
+. *Replicated service* - This section will explain how to create a replicated service in Swarm mode. Scaling the number of tasks in this service and accessing this service will be shown.. Reconciliation between the _desired_ and _actual_ number of containers in the service will be shown.
 .. `docker service --help`
 .. Create a WildFly service using `docker service create`
 .. Routing mesh, swarm-wide ingress port
 .. Scale service
 .. Kill a container and show desired/actual reconciliation
-. Rolling Update
-. Node maintenance
+. *Rolling Update* - This section will explain how to perform a rolling update of a replicated service.
+. *Node management* - This section will explain how to manage different nodes in the cluster. Explicit and implicit node failure scenarios will be explained.
 .. Node failure
 ... Only in Docker Machine, ASG in AWS
 ... Terminate a Docker Machine, wait for the container to be rescheduled, service reconciliation

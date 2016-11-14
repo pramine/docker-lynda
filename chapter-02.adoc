@@ -1,8 +1,8 @@
 = Run containers and build images
 
 . *Run your first Docker container* - This section will show how to use the workflow explained earlier to run a container. The following switches will be explained: `-it`, `stop`, `rm`, `-d`, `-P`, `-p`.
-. *Run container* - This section will explain the following switches for running containers `-v`, `-env`, `-cpu`, `-m`.
-. *Build your first image* - This section will introduce the concept of Dockerfile. The concept of "`build context`" will be explained. `docker build` command will be used to build the image. The following instructions will be covered `FROM`, `MAINTAINER` and `CMD`. `apt-get update` will be explained in context of `FROM`. Overriding the command with `docker run` will be explained as well.
-. *Build your image* - This section will explain the following instruction for building an image `RUN`, `ENTRYPOINT`, `ADD`/`COPY`, `USER`, `EXPOSE`.
-. *Build your image* - This section will explain how `HEALTHCHECK` instruction in Dockerfile can be used to check if the containers are in a healthy state or not. `docker run` command will be shown to overrride the command in Dockerfile.
-. *Build your image* - This section will explain how to build a tagged image using `docker build -t` command. `latest` tag will be explained. Finally pushing the image to Docker Hub and a private registry will be explained.
+. *Run container (more options)* - This section will explain the following switches for running containers `-v`, `-env`, `-cpu`, `-m`.
+. *Create your first image* - This section will introduce the concept of Dockerfile. The concept of "`build context`" will be explained. `docker build` command will be used to build the image. The following instructions will be covered `FROM`, `MAINTAINER` and `CMD`. `apt-get update` will be explained in context of `FROM`. Overriding the command with `docker run` will be explained as well.
+. *Create your image (more instructions)* - This section will explain the following instruction for building an image `RUN`, `ENTRYPOINT`, `ADD`/`COPY`, `USER`, `EXPOSE`.
+. *Add health check to image* - This section will explain how `HEALTHCHECK` instruction in Dockerfile can be used to check if the containers are in a healthy state or not. `docker run` command will be shown to overrride the command in Dockerfile.
+. *Tag and share image* - This section will explain how to build a tagged image using `docker build -t` command. `latest` tag will be explained. Finally pushing the image to Docker Hub and a private registry will be explained.

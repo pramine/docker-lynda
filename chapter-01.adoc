@@ -5,10 +5,9 @@
 .. Build, Ship, Run
 .. Image
 .. Container
-. *Docker workflow* - This section will explain the workflow of Docker. How a client, host and hub work together for a typical lifecycle.
+. *What is Docker Workflow?* - This section will explain the workflow of Docker. How a client, host and hub work together for a typical lifecycle.
 .. Client, Host, Hub
-. *Getting Started with Docker for Mac/Windows and Linux* - This section will explain how to get started with Docker on Mac, Windows and Linux. Difference between Experimental and Stable will be explained.
-.. Experimental and Stable
+. *Getting Started with Docker* - This section will explain how to get started with Docker on Mac, Windows and Linux. Difference between Experimental and Stable will be explained.
 .. `yum install` or `apt-get install`
 . *Getting Started with Docker Toolbox* - This section will explain how to use Docker Toolbox to get started. Connecting to the default Docker Machine will be explained. A new Docker Machine will be created and how to connect to it will be explained.
 .. Different components
