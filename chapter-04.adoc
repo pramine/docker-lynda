@@ -26,11 +26,11 @@
 .. Pause/Active - show that the container is not rescheduled
 .. Drain - show that the container is rescheduled
 . Global service
-. Label/constraints
+. *Customer Scheduler using Label and Constraints* - This section will explain how services can be targeted to certain nodes in the cluster. This can be used to create custom schedulers.
 .. Attach labels to some nodes
 .. Run a service with constraint
 .. Show service scaling (only on the labeled node)
 .. Run a new service w/o constraint (show it only starts on unlabeled nodes)
-. Create a Couchbase cluster using service
-. Docker Compose `bundle` command
+. *Create a Couchbase cluster using Docker Service* - This section will explain how a Couchbase cluster can be created using services.You'll learn how different services collaborate with each other to create the cluster.
+. *Deploying Docker Compose to Swarm Mode cluster* - This section will explain how a multi-container application defined using Compose file can be deployed to a cluster of Docker Engines in Swarm Mode.
 .. Compare Dockerfile -> Image -> Container with Compose -> Bundle -> Stack
