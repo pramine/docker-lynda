@@ -1,4 +1,4 @@
-= Cluster of multiple nodes
+= Docker Clustering
 
 . *Introduction to Swarm Mode* - This section introduces Swarm Mode. It talks about 
 .. What is it?
