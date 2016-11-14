@@ -1,8 +1,8 @@
 = Stateful containers
 
-. Per-container volume: http://blog.couchbase.com/2016/october/persisting-couchbase-data-across-container-restarts
-. Host mapping: http://blog.couchbase.com/2016/october/persisting-couchbase-data-across-container-restarts
-. Docker Volume Plugin
-.. Flocker
-.. Portworx
-.. Rex-ray
+. *Per-container Volume for Stateful Containers*: This section will explain how stateful containers, such as a database, can be created. 
+.. Source: http://blog.couchbase.com/2016/october/persisting-couchbase-data-across-container-restarts
+. *Volume on Host Directory*: This section will explain how to map a Docker volume to a directory on the host to save state of the container. `docker run -v` command and Compose file definitions will be shown.
+.. Source: http://blog.couchbase.com/2016/october/persisting-couchbase-data-across-container-restarts
+. *Using Docker Volume Plugin* - This section will explain how to use Docker Volume Plugins to take state of the container across hosts. Flocker, Portworx and Rex-ray will be covered.
+. *Create a Database cluster using Docker Service* - This section will explain how a Couchbase cluster can be created using Docker services. You'll learn how different services collaborate with each other to create the cluster.
