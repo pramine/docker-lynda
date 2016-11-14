@@ -18,7 +18,7 @@
 .. Routing mesh, swarm-wide ingress port
 .. Scale service
 .. Kill a container and show desired/actual reconciliation
-. *Rolling Update* - This section will explain how to perform a rolling update of a replicated service.
+. *Rolling Update of Service* - This section will explain how to perform a rolling update of a replicated service.
 . *Node management* - This section will explain how to manage different nodes in the cluster. Explicit and implicit node failure scenarios will be explained.
 .. Node failure
 ... Only in Docker Machine, ASG in AWS

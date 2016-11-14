@@ -1,7 +1,7 @@
 = Docker Tooling
 
-. NetBeans: https://github.com/arun-gupta/docker-java-ides
-. Eclipse: https://github.com/arun-gupta/docker-java-ides
-. IntelliJ: https://github.com/arun-gupta/docker-java-ides
-. Maven integration: https://github.com/docker/labs/blob/master/developer-tools/java/chapters/ch03-build-image.adoc#package-and-run-java-application-using-docker-maven-plugin
-. Gradle integration: https://github.com/javaee-samples/javaee-docker-gradle
+. *Docker Tooling in NetBeans* - This section will explain tooling in NetBeans IDE. Source: https://github.com/arun-gupta/docker-java-ides
+. *Docker Tooling in Eclipse* - This section will explain tooling in Eclipse IDE. Source: https://github.com/arun-gupta/docker-java-ides
+. *Docker Tooling in IntelliJ* - This section will explain tooling in IntelliJ IDE. Source: https://github.com/arun-gupta/docker-java-ides
+. *Docker Lifecycle with Maven* - This section will explain how to perform Docker commands like create and push an image and run and stop a container can be easily integrated with Maven. https://github.com/docker/labs/blob/master/developer-tools/java/chapters/ch03-build-image.adoc#package-and-run-java-application-using-docker-maven-plugin
+. *Docker Lifecycle with Gradle* - This section will explain how to perform Docker commands like create and push an image and run and stop a container can be easily integrated with Gradle. https://github.com/javaee-samples/javaee-docker-gradle
