@@ -1,9 +1,9 @@
 = Multi-container applications
 
 . *Introduction to Docker Compose* - This section will introduce the concept of multi-container applications and how Docker Compose achieves it. Compose CLI will be introduced. Default Compose file names of `docker-compose.yml` and `docker-compose.override.yml` will be introduced. 
-. *Docker Compose* - Most common Docker Compose options such as `--version`, `up`, `down`, `-p`, and default project name will be explained. A sample Compose file will be used to start a container. The command will be compared with `docker run` CLI.
-. *Docker Compose* - Some other commands such as `--help`, `ps`, `stop`, `rm`, `kill` and `logs` will be explained.
-. Run a simple WildFly container, WildFly + Couchbase container - This section will show how two containers can be started using Compose. The two containers will be configured to communicate with each other.
-. Dev/Prod with Compose - Multiple Compose files using `-f` will be used to explain how to reduce impedance mismatch between development and production environments. Overriding of services using `production.yml` will be explained as part of that.
-. More command examples: `pull`, `build`, `push`, `restart` - Building and pushing of images will be explained using `build` and `push` commands. Pulling all images using `pull` will be explained. Finally restarting all services using `restart` command will be explained.
+. *Docker Compose Basic Commands* - Most common Docker Compose options such as `--version`, `up`, `down`, `-p`, and default project name will be explained. A sample Compose file will be used to start a container. The command will be compared with `docker run` CLI.
+. *Manage containers using Compose* - Some other commands such as `--help`, `ps`, `stop`, `rm`, `kill` and `logs` will be explained.
+. *Run two containers using Compose* - This section will show how two containers can be started using Compose. The two containers will be configured to communicate with each other.
+. *Dev/Prod with Compose* - Multiple Compose files using `-f` will be used to explain how to reduce impedance mismatch between development and production environments. Overriding of services using `production.yml` will be explained as part of that.
+. *Build, push, and pull images*: `pull`, `build`, `push`, `restart` - Building and pushing of images will be explained using `build` and `push` commands. Pulling all images using `pull` will be explained. Finally restarting all services using `restart` command will be explained.
 
