@@ -12,7 +12,7 @@
 .. Create SSH tunnel
 .. `docker ps`
 .. `docker node ls`
-. *Replicated service* - This section will explain how to create a replicated service in Swarm mode. Scaling the number of tasks in this service and accessing this service will be shown.. Reconciliation between the _desired_ and _actual_ number of containers in the service will be shown.
+. *Docker Service* - This section will explain the concept of Docker Service. It will talk about _replicated_ and _global_ service. The attendees will learn how to create a replicated service in Swarm mode. Scaling the number of tasks in this service and accessing this service will be shown.. Reconciliation between the _desired_ and _actual_ number of containers in the service will be shown.
 .. `docker service --help`
 .. Create a WildFly service using `docker service create`
 .. Routing mesh, swarm-wide ingress port
@@ -25,7 +25,6 @@
 ... Terminate a Docker Machine, wait for the container to be rescheduled, service reconciliation
 .. Pause/Active - show that the container is not rescheduled
 .. Drain - show that the container is rescheduled
-. Global service
 . *Customer Scheduler using Label and Constraints* - This section will explain how services can be targeted to certain nodes in the cluster. This can be used to create custom schedulers.
 .. Attach labels to some nodes
 .. Run a service with constraint
