@@ -6,4 +6,3 @@
 . *Run two containers using Compose* - This section will show how two containers can be started using Compose. The two containers will be configured to communicate with each other.
 . *Development and Production with Compose* - Multiple Compose files using `-f` will be used to explain how to reduce impedance mismatch between development and production environments. Overriding of services using `production.yml` will be explained as part of that.
 . *Build, push, and pull images with Compose*: `pull`, `build`, `push`, `restart` - Building and pushing of images will be explained using `build` and `push` commands. Pulling all images using `pull` will be explained. Finally restarting all services using `restart` command will be explained.
-

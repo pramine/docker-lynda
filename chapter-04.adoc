@@ -1,6 +1,6 @@
 = Docker Clustering
 
-. *Introduction to Swarm Mode* - This section introduces Swarm Mode. It talks about 
+. *Introduction to Swarm Mode* - This section introduces Swarm Mode. It explains the concept of multi-host cluster using Docker.
 .. What is it?
 .. Master (primary and secondary) and Worker, Raft/Gossip
 . *Create Swarm Mode cluster using Docker Machine* - This section will explain how to create a cluster of Docker Engine in swarm mode. It will use Docker Machine to create the cluster. This allows the multi-host cluster to be easily created on a single machine.
@@ -30,6 +30,5 @@
 .. Run a service with constraint
 .. Show service scaling (only on the labeled node)
 .. Run a new service w/o constraint (show it only starts on unlabeled nodes)
-. *Create a Couchbase cluster using Docker Service* - This section will explain how a Couchbase cluster can be created using services.You'll learn how different services collaborate with each other to create the cluster.
 . *Deploying Docker Compose to Swarm Mode cluster* - This section will explain how a multi-container application defined using Compose file can be deployed to a cluster of Docker Engines in Swarm Mode.
 .. Compare Dockerfile -> Image -> Container with Compose -> Bundle -> Stack
